@@ -12,7 +12,7 @@ class User:
         pswd = password
         print(f"{self.first_name} password is  {pswd}")
 
-    def incriment_login(self, times):
+    def incriment_login_attemps(self, times):
         self.login_attempts += times
         print(f"Login attemps was incrimented to  {self.login_attempts}")
 
