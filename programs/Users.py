@@ -23,6 +23,6 @@ class User:
 
 user1 = User('ian', 'teddy')
 user1.incriment_login(1)
-user1.incriment_login(2)
+user1.incriment_login_attemps(2)
 user1.reset_login_attemps()
 
